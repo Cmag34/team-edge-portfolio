@@ -1,0 +1,95 @@
+html, body {
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+    background-color: rgba(127, 255, 212, 0);
+    padding: 20px 0px;
+    font-family: sans-serif;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: rgb(178, 244, 150);
+    font-weight: bold;
+    font-size: 30px;
+}
+.iframe{
+    width: 100%;
+    height: 400px;
+    border:3px solid black; 
+            
+}
+.intro {
+    padding: 50px 50px 50px 50px; 
+    color:rgba(84, 174, 242, 0.558);
+    height: 450px;
+    background-image: url("./c_portforlio_image.png");
+    background-size: 900px 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.intro_main_project {
+    padding: 50px 0px; 
+    color:rgba(84, 174, 242, 0.558);
+    height: 850px;
+    background-image: url("https://wallpaperaccess.com/full/115007.jpg");
+    /* background-image: url("https://images.unsplash.com/photo-1472145246862-b24cf25c4a36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2342&q=80");*/ 
+}
+
+.green-headings {
+    color:rgba(84, 174, 242, 0.558);
+}
+
+
+.photo-gallery {
+    width:100%;
+}
+
+.gallery-container {
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    /*border: 1px solid red;*/
+}
+
+.gallery-items {
+    margin-right: 20px;
+    margin-left: 20px; 
+    width: 20%;
+    /*border: 1px solid pink;*/
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    min-width: 200px;
+}
+
+.gallery-items img {
+    
+    width: 100%;
+}
+
+.iframe {
+    width: 50%;
+    height: 650px;
+}
+
