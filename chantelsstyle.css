@@ -6,6 +6,7 @@ html, body {
 body {
     text-align: center;
     font-family: 'Dancing Script', cursive;
+    flex-wrap: wrap;
 }
 
 .navbar {
